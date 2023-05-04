@@ -2,7 +2,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: dev
-  namespace: takokun778
+  namespace: flux-takokun778
   annotations:
     fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: "semver:*"
